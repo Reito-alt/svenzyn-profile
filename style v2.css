@@ -380,24 +380,13 @@ body::before {
 }
 
 .content-header {
-    font-family: "SF Pro Display Medium", sans-serif;
+    font-family: "Albert Sans", sans-serif;
     font-size: 14px;
     font-weight: 800;
     font-style: normal;
     font-optical-sizing: auto;
     letter-spacing: 0px;
     color: #141414;
-}
-
-.content-header-dua {
-    font-family: "SF Pro Display Medium", sans-serif;
-    font-size: 11px;
-    font-weight: 800;
-    font-style: normal;
-    font-optical-sizing: auto;
-    letter-spacing: 0px;
-    color: #141414;
-    opacity: 0.5;
 }
 
 .watchlist-card {
