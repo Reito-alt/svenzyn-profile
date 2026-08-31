@@ -130,6 +130,36 @@ body::before {
     box-shadow: 0 0 10px rgba(65, 100, 232, 0.4), 0 0 25px rgba(65, 100, 232, 0.2);
 }
 
+.link-card-dua {
+    width: 420px;
+    height: 88px;
+
+    background-color: #1A1A1A;
+    border: 2px solid #294dc2;
+    border-radius: 16px;
+
+    padding: 16px 22px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    color: inherit;
+
+    transition: 0.25s ease;
+    transform: 0.25s ease;
+    border-color: 0.25s ease;
+    box-shadow: 0.25s ease;
+}
+
+.link-card-dua:hover {
+    background-color: #262CC7;
+    transition: 0.2s ease;
+    transform: translateY(-3px);
+    border-color: 1px solid #f2f2f2;
+    box-shadow: 0 0 10px rgba(65, 100, 232, 0.4), 0 0 25px rgba(65, 100, 232, 0.2);
+}
+
 .link-card-tiga {
     width: 420px;
     height: 88px;
@@ -387,6 +417,7 @@ body::before {
     font-optical-sizing: auto;
     letter-spacing: 0px;
     color: #141414;
+    padding-bottom: 14px;
 }
 
 .watchlist-card {
